@@ -13,6 +13,9 @@ namespace LesApp0
     {
         static void Main()
         {
+            // join unicode
+            Console.OutputEncoding = Encoding.Unicode;
+
             // перевірка доступу до класу із іншого простору імен
             MyClass @class = new MyClass();
 
